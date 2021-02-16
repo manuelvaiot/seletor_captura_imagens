@@ -1,0 +1,27 @@
+// Generated file. Do not edit.
+
+buildscript {
+    repositories {
+        google()
+        jcenter()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.5.0'
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+    }
+}
+
+ext {
+    flutterFFmpegPackage  = "min-lts"
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
