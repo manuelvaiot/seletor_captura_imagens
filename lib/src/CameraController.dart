@@ -82,7 +82,6 @@ class _CameraState extends State<Camera> with WidgetsBindingObserver {
           } else if (status.isPermanentlyDenied || status.isRestricted) {
             //permissão de câmera negada permanentemente
             Navigator.pop(context, null);
-            print('permissão negada caralhoooooooooo');
           }
         } else {
           return null; //on pause camera disposed so we need call again "issue is only for android"
@@ -456,7 +455,7 @@ class _CameraState extends State<Camera> with WidgetsBindingObserver {
                                 padding: EdgeInsets.all(6),
                                 child: Row(
                                   children: [
-                                    Text('canclar',
+                                    Text('cancelar',
                                         style: TextStyle(color: Colors.white)),
                                   ],
                                 ),
