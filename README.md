@@ -11,22 +11,22 @@ Após o módulo ser adicionado dentro do pubspec.yaml do projeto você deve segu
 
 Não esqueça de adicionar as permissões dentro do AndroidManifest.xml
 ```xml
-    <uses-permission android:name="android.permission.INTERNET"/>
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+<uses-permission android:name="android.permission.INTERNET"/>
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 ```
 Dentro da pasta Android\app\build.gradle localize o buildTypes e adicione o trecho de codigo abaixo 
 ```dart
-    buildTypes {
-        release {
-            signingConfig signingConfigs.release
+buildTypes {
+    release {
+        signingConfig signingConfigs.release
 
-            minifyEnabled true
-            useProguard true
+        minifyEnabled true
+        useProguard true
 
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro' 
-        }
+        proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro' 
     }
+}
 ```
 
 Ainda dentro do build.gradle, localize o defaultConfig e mude o minSdkVersion para 21.
