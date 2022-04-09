@@ -23,7 +23,8 @@ environment:
 dependencies:
   photo_gallery: ">=0.4.0 < 0.4.1"
   transparent_image: ">=1.0.0 < 1.0.1"
-  permission_handler: ^5.1.0+2
+  #permission_handler: ^5.1.0+2
+  permission_handler: ^9.2.0
   video_player: ^0.10.12
   camera: ^0.5.8+17
   flutter_ffmpeg: ^0.3.1
