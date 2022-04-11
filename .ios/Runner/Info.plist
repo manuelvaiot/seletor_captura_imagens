@@ -12,6 +12,8 @@
 	<string>6.0</string>
 	<key>CFBundleName</key>
 	<string>seletor_captura_imagens</string>
+	<key>CFBundleDisplayName</key>
+	<string>Seletor Captura Imagens</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>

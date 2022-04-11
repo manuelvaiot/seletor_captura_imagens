@@ -1,7 +1,10 @@
 # This is a generated file; do not edit or check into version control.
-camera=C:\\src\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\camera-0.5.8+17\\
-flutter_ffmpeg=C:\\src\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\flutter_ffmpeg-0.3.1\\
-permission_handler=C:\\src\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\permission_handler-5.1.0+2\\
-photo_gallery=C:\\src\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\photo_gallery-0.4.0\\
-video_player=C:\\src\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\video_player-0.10.12+5\\
-video_player_web=C:\\src\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\video_player_web-0.1.4+1\\
+camera=C:\\android\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\camera-0.5.8+17\\
+flutter_ffmpeg=C:\\android\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\flutter_ffmpeg-0.4.2\\
+permission_handler=C:\\android\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\permission_handler-9.2.0\\
+permission_handler_android=C:\\android\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\permission_handler_android-9.0.2+1\\
+permission_handler_apple=C:\\android\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\permission_handler_apple-9.0.4\\
+permission_handler_windows=C:\\android\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\permission_handler_windows-0.1.0\\
+photo_gallery=C:\\android\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\photo_gallery-0.4.0\\
+video_player=C:\\android\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\video_player-0.10.12+5\\
+video_player_web=C:\\android\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\video_player_web-0.1.4+1\\
