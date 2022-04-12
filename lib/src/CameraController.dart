@@ -66,7 +66,7 @@ class _CameraState extends State<Camera> with WidgetsBindingObserver {
       if (state == AppLifecycleState.resumed) {
         if (controller != null) {
           var status = await Permission.camera.status;
-          if (status.isUndetermined) {
+          if (status.isDenied) {
             // We didn't ask for permission yet.
           }
           print('permissão da camera');
@@ -74,7 +74,7 @@ class _CameraState extends State<Camera> with WidgetsBindingObserver {
 
           if (status.isGranted) {
             controller.initialize();
-          } else if (status.isUndetermined) {
+          } else if (status.isLimited) {
             Permission.camera.request();
           } else if (status.isDenied) {
             //permissão de câmera negada
