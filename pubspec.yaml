@@ -25,7 +25,7 @@ dependencies:
   transparent_image: ">=1.0.0 < 1.0.1"
 
   permission_handler: ^9.2.0
-  video_player: ^0.10.12
+  video_player: ^2.3.0
   camera: ^0.5.8+17
   flutter_ffmpeg: ^0.4.2
   flutter:

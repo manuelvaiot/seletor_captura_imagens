@@ -484,7 +484,7 @@ class _VideoProviderState extends State<VideoProvider> {
 
   @override
   Widget build(BuildContext context) {
-    return _controller == null || !_controller.value.initialized
+    return _controller == null || !_controller.value.isInitialized
         ? Container()
         : Column(
             mainAxisAlignment: MainAxisAlignment.center,

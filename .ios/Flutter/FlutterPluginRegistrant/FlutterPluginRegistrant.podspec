@@ -23,5 +23,5 @@ Depends on all your plugins, and provides a function to register them.
   s.dependency 'flutter_ffmpeg'
   s.dependency 'permission_handler_apple'
   s.dependency 'photo_gallery'
-  s.dependency 'video_player'
+  s.dependency 'video_player_avfoundation'
 end
